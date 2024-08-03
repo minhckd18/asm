@@ -1,0 +1,237 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CommonInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|solutionrelative:CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CommonInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|solutionrelative:CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Setting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|solutionrelative:CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Setting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Display.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|solutionrelative:CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Display.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|solutionrelative:CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|solutionrelative:CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CommonInfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|solutionrelative:CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CommonInfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Display.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|solutionrelative:CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Display.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Setting.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|solutionrelative:CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Setting.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\General.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|solutionrelative:CPP201x_asm1_minhnhFX30636@funix.edu.vn\\General.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Sound.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|solutionrelative:CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Sound.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Sound.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|solutionrelative:CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Sound.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\General.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3521795A-CC02-4F46-B766-87A0270A8B26}|CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj|solutionrelative:CPP201x_asm1_minhnhFX30636@funix.edu.vn\\General.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommonInfo.h",
+              "DocumentMoniker": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CommonInfo.h",
+              "RelativeDocumentMoniker": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CommonInfo.h",
+              "ToolTip": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CommonInfo.h",
+              "RelativeToolTip": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CommonInfo.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-29T16:35:02.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Sound.h",
+              "DocumentMoniker": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Sound.h",
+              "RelativeDocumentMoniker": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Sound.h",
+              "ToolTip": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Sound.h",
+              "RelativeToolTip": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Sound.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-29T14:11:57.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "General.h",
+              "DocumentMoniker": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\General.h",
+              "RelativeDocumentMoniker": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\General.h",
+              "ToolTip": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\General.h",
+              "RelativeToolTip": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\General.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-29T14:11:56.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Display.h",
+              "DocumentMoniker": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Display.h",
+              "RelativeDocumentMoniker": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Display.h",
+              "ToolTip": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Display.h",
+              "RelativeToolTip": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Display.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-29T14:11:53.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Setting.h",
+              "DocumentMoniker": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Setting.h",
+              "RelativeDocumentMoniker": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Setting.h",
+              "ToolTip": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Setting.h",
+              "RelativeToolTip": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Setting.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-29T07:57:28.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Car.h",
+              "DocumentMoniker": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Car.h",
+              "RelativeDocumentMoniker": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Car.h",
+              "ToolTip": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Car.h",
+              "RelativeToolTip": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Car.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-01T10:09:23.056Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CPP201x_asm1_minhnhFX30636@funix.edu.vn.cpp",
+              "DocumentMoniker": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.cpp",
+              "RelativeDocumentMoniker": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.cpp",
+              "ToolTip": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.cpp",
+              "RelativeToolTip": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-29T07:35:04.009Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Setting.cpp",
+              "DocumentMoniker": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Setting.cpp",
+              "RelativeDocumentMoniker": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Setting.cpp",
+              "ToolTip": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Setting.cpp",
+              "RelativeToolTip": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Setting.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-01T10:10:14.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Display.cpp",
+              "DocumentMoniker": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Display.cpp",
+              "RelativeDocumentMoniker": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Display.cpp",
+              "ToolTip": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Display.cpp",
+              "RelativeToolTip": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Display.cpp",
+              "ViewState": "AQIAABcAAAAAAAAAAAAcwCkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-29T14:12:19.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Car.cpp",
+              "DocumentMoniker": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Car.cpp",
+              "RelativeDocumentMoniker": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Car.cpp",
+              "ToolTip": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Car.cpp",
+              "RelativeToolTip": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Car.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-29T13:45:04.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommonInfo.cpp",
+              "DocumentMoniker": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CommonInfo.cpp",
+              "RelativeDocumentMoniker": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CommonInfo.cpp",
+              "ToolTip": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CommonInfo.cpp",
+              "RelativeToolTip": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CommonInfo.cpp",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAswBoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-01T07:37:49.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "General.cpp",
+              "DocumentMoniker": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\General.cpp",
+              "RelativeDocumentMoniker": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\General.cpp",
+              "ToolTip": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\General.cpp",
+              "RelativeToolTip": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\General.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-29T14:12:20.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sound.cpp",
+              "DocumentMoniker": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Sound.cpp",
+              "RelativeDocumentMoniker": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Sound.cpp",
+              "ToolTip": "D:\\Funix\\CPP\\2-CPP102x\\Assignments\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Sound.cpp",
+              "RelativeToolTip": "CPP201x_asm1_minhnhFX30636@funix.edu.vn\\Sound.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-29T14:12:21.676Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
