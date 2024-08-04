@@ -1,10 +1,13 @@
-#ifndef UTILS_H_
-#define UTILS_H_
+#ifndef UTILS_H
+#define UTILS_H
 
 #include <iostream>
+#include <string>
+#include <sstream>
+#include <regex>
 
 using namespace std;
 
-void readInt(istream& is, unsigned int& num);
+void readInt(istream& is, int& num, const int& max, const int& min = 0);
 
-#endif /* UTILS_H_ */
+#endif // UTILS_H

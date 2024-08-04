@@ -1,52 +1,56 @@
 #include "Sound.h"
 
-Sound::Sound(): Setting(){
-	// Your code
+Sound::Sound(): media_level(0), call_level(0), navi_level(0), notification_level(0) {}
+
+void Sound::inputSettings()
+{
+	cout << "Media volumn level: ";
+	cin >> media_level;
+	cout << "Call volumn level: ";
+	cin >> call_level;
+	cout << "Navigation volumn level: ";
+	cin >> navi_level;
+	cout << "Notification volumn level: ";
+	cin >> notification_level;
 }
 
-Sound::~Sound(){}
-
-void Sound::nhapThongTin(){
-	// Your code
-}
-
-void Sound::xuatThongTin(){
-	// Your code
+void Sound::displaySettings() const
+{
+	cout << left << setw(20) << this->media_level
+		<< left << setw(20) << this->call_level
+		<< left << setw(20) << this->navi_level
+		<< left << setw(20) << this->notification_level;
 }
 
 int Sound::get_media_level(){
-	// Your code
-	return 0;
+	return this->media_level;
 }
 
 int Sound::get_call_level(){
-	// Your code
-	return 0;
+	return this->call_level;
 }
 
 int Sound::get_navi_level(){
-	// Your code
-	return 0;
+	return this->navi_level;
 }
 
 int Sound::get_notification_level(){
-	// Your code
-	return 0;
+	return this->notification_level;
 }
 
 void Sound::set_media_level(int data){
-	// Your code
+	this->media_level = data;
 }
 
 void Sound::set_call_level(int data){
-	// Your code
+	this->call_level = data;
 }
 
 void Sound::set_navi_level(int data){
-	// Your code
+	this->navi_level = data;
 }
 
 void Sound::set_notification_level(int data){
-	// Your code
+	this->notification_level = data;
 }
 

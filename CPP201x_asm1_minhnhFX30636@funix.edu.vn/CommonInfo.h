@@ -1,18 +1,23 @@
-#ifndef COMMON_H_
-#define COMMON_H_
+#ifndef COMMON_H
+#define COMMON_H
 
 #include <iostream>
 #include <iomanip>
 #include <string>
 #include <sstream>
+#include "Setting.h"
+#include "Utils.h"
 
-using namespace std;
+class CommonInfo : public Setting {
 
-class CommonInfo{
 public:
 	CommonInfo();
 	CommonInfo(string name, string key, string email, int odo, int service);
 	~CommonInfo() = default;
+
+	// override
+	void inputSettings() override;
+	void displaySettings() const override;
 
 	// getters
 	string getOwnerName();
@@ -20,17 +25,17 @@ public:
 	string getEmail();
 	int getODO();
 	int getServiceRemind();
-	
+
 	// setters
-	void setOwnerName(string data);
-	void setPersonalKey(string data);
-	void setEmail(string data);
-	void setODO(int data);
-	void setServiceRemind(int data);
-	
+	void set_owner_name(string data);
+	void set_personal_key(string data);
+	void set_email(string data);
+	void set_ODO(int data);
+	void set_service_remind(int data);
+
 	string parseData();
 	void display_common_info();
-	
+
 private:
 	string owner_name;
 	string personal_key; 	// Chuoi 8 ky tu so
@@ -39,4 +44,4 @@ private:
 	int service_remind;
 };
 
-#endif // COMMON_H_
+#endif // COMMON_H

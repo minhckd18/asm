@@ -1,35 +1,28 @@
 #include "General.h"
 #include "CommonInfo.h"
 
-General::General()
-{
+General::General() : timeZone(""), language("") {}
+
+void General::inputSettings(){
 	// Your code
 }
 
-General::~General(){}
-
-void General::nhapThongTin(){
-	// Your code
-}
-
-void General::xuatThongTin(){
+void General::displaySettings(){
 	// Your code
 }
 
 string General::get_language(){
-	// Your code
-	return "";
+	return this->language;
 }
 
 string General::get_timeZone(){
-	// Your code
-	return "";
+	return this->timeZone;
 }
 
 void General::set_timeZone(string data){
-	// Your code
+	this->timeZone = data;
 }
 
 void General::set_language(string data){
-	// Your code
+	this->language = data;
 }

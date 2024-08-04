@@ -1,13 +1,11 @@
-#ifndef SETTING_H_
-#define SETTING_H_
+#ifndef SETTING_H
+#define SETTING_H
 
 #include <iostream>
 #include <iomanip>
 #include <string>
 
 #include "CommonInfo.h"
-
-using namespace std;
 
 class Setting {
 public:
@@ -16,4 +14,3 @@ public:
 };
 
 #endif // SETTING_H
-

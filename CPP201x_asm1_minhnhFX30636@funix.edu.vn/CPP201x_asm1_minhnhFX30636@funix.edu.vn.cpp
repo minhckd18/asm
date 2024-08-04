@@ -2,6 +2,25 @@
 //#include "CommonInfo.h"
 #include "Display.h"
 #include "Car.h"
+#include "Utils.h"
+
+namespace MH_1
+{
+	const int SELECTION_MIN = 0;
+	const int SELECTION_MAX = 2;
+}
+
+namespace MH_2
+{
+	const int SELECTION_MIN = 0;
+	const int SELECTION_MAX = 3;
+}
+
+namespace MH_3
+{
+	const int SELECTION_MIN = 0;
+	const int SELECTION_MAX = 4;
+}
 
 using namespace std;
 
@@ -16,6 +35,9 @@ void screen_2_display();
 void screen_2_handler(int);
 void screen_3_display();
 void screen_3_handler(int);
+
+void input_common_info(Car* car);
+
 void display_common_info_dummy();
 void displaySettings_dummy();
 
@@ -25,10 +47,10 @@ int main(int argc, int* argv[])
 {
 	// Testing
 	cars[0] = new Car;
-	cars[0]->set_common_info(new CommonInfo("Minh", "123456ab", "minh@com", 100, 2000));
+	cars[0]->set_common_info(new CommonInfo("Minh", "12345678", "minh@com", 100, 2000));
 	cars[0]->set_display(new Display(10, 20, 30));
 	cars[1] = new Car;
-	cars[1]->set_common_info(new CommonInfo("Dung", "654321ab", "dung@com", 100, 2000));
+	cars[1]->set_common_info(new CommonInfo("Dung", "12345679", "dung@com", 100, 2000));
 	//cars[1].set_display(displays[1]);
 	carsCnt = 2;
 
@@ -39,13 +61,34 @@ int main(int argc, int* argv[])
 	do
 	{
 		screen_1_display();
-		cin >> selection_1;
-		screen_1_handler(selection_1);
-	} while (selection_1 != 0);
+		readInt(cin, selection_1, MH_1::SELECTION_MAX);
+
+		if (selection_1 != 0)
+		{
+			screen_1_handler(selection_1);
+		}
+		else
+		{
+			break;
+		}
+	} while (true);
 
 	// End program
 	system("cls");
-	cout << "TURNING OFF PROGRAM ...\nGOOD BYE!" << endl;
+	cout << "Turning off program..." << endl;
+	cout << "Clearing memory..." << endl;
+
+	// Delete cars memory
+	for (int i = 0; i < 100; i++) {
+		if (cars[i] != nullptr) {
+			delete cars[i];
+		}
+	}
+	delete[] cars;
+	// Avoid dangling pointer
+	cars = nullptr;
+
+	cout << "GOOD BYE!" << endl;
 
 	return 0;
 }
@@ -70,17 +113,33 @@ void screen_1_handler(int selection_1)
 		do
 		{
 			screen_2_display();
-			cin >> selection_2;
-			screen_2_handler(selection_2);
-		} while (selection_2 != 0);
+			readInt(cin, selection_2, MH_2::SELECTION_MAX);
+
+			if (selection_2 != 0)
+			{
+				screen_2_handler(selection_2);
+			}
+			else
+			{
+				break;
+			}
+		} while (true);
 		break;
 	case 2:
 		do
 		{
 			screen_3_display();
-			cin >> selection_3;
-			screen_3_handler(selection_3);
-		} while (selection_3 != 0);
+			readInt(cin, selection_3, MH_3::SELECTION_MAX);
+
+			if (selection_3 != 0)
+			{
+				screen_3_handler(selection_3);
+			}
+			else
+			{
+				break;
+			}
+		} while (true);
 		break;
 	case 0:
 		// Do nothing, end the program
@@ -104,107 +163,45 @@ void screen_2_display()
 
 void screen_2_handler(int selection_2)
 {
-	if (selection_2 != 0)
+	// Input display setting
+	system("cls");
+	cout << "---INPUT DISPLAY SETTING---" << endl;
+
+	Car* target_car;
+	input_common_info(target_car);
+
+	switch (selection_2)
 	{
-		// Input display setting
-		system("cls");
-		string tmp_name;
-		string tmp_key;
-		string tmp_email;
-		string tmp_odo;
-		string tmp_service_remind;
-		bool isExisted = false;
-		int i = 0;
-
-		// Get personal key
-		cout << "---INPUT DISPLAY SETTING---" << endl;
-		cin.clear();
-		cin.ignore(INT_MAX, '\n');
-		cout << "Owner name: ";
-		getline(cin, tmp_name);
-		cout << "Email: ";
-		getline(cin, tmp_email);
-		cout << "Please input personal key: ";
-		getline(cin, tmp_key);
-		cout << "ODO: ";
-		getline(cin, tmp_odo);
-		cout << "Service remind: ";
-		getline(cin, tmp_service_remind);
-
-		// Check if existed
-		for (i = 0; i < carsCnt; ++i)
+	case 1:
+	{
+		Setting* target_display = target_car->get_display();
+		// Input display setting		
+		if (target_display != nullptr)
 		{
-			if (cars[i]->get_common_info()->getPersonalKey() == tmp_key)
-			{
-				isExisted = true;
-				break;
-			}
-		}
-
-		Car* target_car; // Pointer to the car that will be modified
-		CommonInfo* target_common_info;
-		Setting* target_display;
-		Setting* target_sound;
-		Setting* target_general;
-
-		if (isExisted)
-		{
-			cout << "\t-> This car is already existed, data will be overwritten." << endl;
-			target_car = cars[i]; // Car to be modified is already existed
-			target_common_info = target_car->get_common_info();
+			// Existed display setting -> overwrite
+			target_display->inputSettings();
 		}
 		else
 		{
-			cout << "\t-> This is a new car, data will be appended to your database" << endl;
-			cars[carsCnt] = new Car;
-			target_car = cars[carsCnt];
-			target_car->set_common_info(new CommonInfo);
-			target_common_info = target_car->get_common_info();
-			carsCnt++;
+			// New display setting -> allocate
+			target_car->set_display(new Display);
+			target_display = target_car->get_display();
+			target_display->inputSettings();
 		}
-
-		target_common_info->setOwnerName(tmp_name);
-		target_common_info->setPersonalKey(tmp_key);
-		target_common_info->setEmail(tmp_email);
-		target_common_info->setODO(stoi(tmp_odo));
-		target_common_info->setServiceRemind(stoi(tmp_service_remind));
-
-		target_display = target_car->get_display();
-		//target_sound = target_car->get_sound();
-		//target_general = target_car->get_general();
-
-		switch (selection_2)
-		{
-		case 1:
-		{
-			// Input display setting		
-			if (target_display != nullptr)
-			{
-				// Existed display setting -> overwrite
-				target_display->inputSettings();
-			}
-			else
-			{
-				// New display setting -> allocate
-				target_car->set_display(new Display);
-				target_display = target_car->get_display();
-				target_display->inputSettings();
-			}
-			break;
-		}
-		case 2:
-			// something here
-			break;
-		case 3:
-			// something here
-			break;
-		case 0:
-			// Do nothing, return to screen 1
-			break;
-		default:
-			// Nothing to do
-			break;
-		}
+		break;
+	}
+	case 2:
+		// something here
+		break;
+	case 3:
+		// something here
+		break;
+	case 0:
+		// Do nothing, return to screen 1
+		break;
+	default:
+		// Nothing to do
+		break;
 	}
 }
 
@@ -240,7 +237,7 @@ void screen_3_handler(int selection_3)
 		for (int i = 0; i < carsCnt; ++i)
 		{
 			if (cars[i]->get_common_info() != nullptr)
-				cars[i]->get_common_info()->display_common_info();
+				cars[i]->get_common_info()->displaySettings();
 			else
 				display_common_info_dummy();
 
@@ -284,4 +281,48 @@ void displaySettings_dummy()
 	cout << left << setw(20) << ""
 		<< left << setw(20) << ""
 		<< left << setw(20) << "";
+}
+
+void input_common_info(Car* target_car)
+{
+	// Create a temp car obj
+	Car* tmp_car = new Car;
+
+	// allocate memory for temp car common info
+	tmp_car->set_common_info(new CommonInfo);
+
+	// read input for temp common info
+	tmp_car->get_common_info()->inputSettings();
+
+	// check if existed in database based on id
+	bool isExisted = false;
+	int i = 0;
+	for (i = 0; i < carsCnt; ++i)
+	{
+		if (cars[i]->get_common_info()->getPersonalKey() == tmp_car->get_common_info()->getPersonalKey())
+		{
+			isExisted = true;
+			break;
+		}
+	}
+
+	if (isExisted)
+	{
+		// if yes:
+		// - overwrite common info into that existed car
+		cout << "\t-> This car is already existed, data will be overwritten." << endl;
+		target_car = cars[i]; // Car to be modified is already existed
+		*(target_car->get_common_info()) = *(tmp_car->get_common_info());
+		
+		// - delete temp car memory
+		delete tmp_car;
+	}
+	else
+	{
+		// if no, create new slot and point to the temp car obj
+		cout << "\t-> This is a new car, data will be appended to your database" << endl;
+		cars[carsCnt] = tmp_car;
+		target_car = cars[carsCnt];
+		carsCnt++;
+	}
 }

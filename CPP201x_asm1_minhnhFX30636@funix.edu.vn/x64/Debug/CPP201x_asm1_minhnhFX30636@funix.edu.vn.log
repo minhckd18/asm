@@ -1,4 +1,26 @@
-﻿  CPP201x_asm1_minhnhFX30636@funix.edu.vn.cpp
-D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn.cpp(147,12): warning C4101: 'target_sound': unreferenced local variable
-D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn.cpp(148,12): warning C4101: 'target_general': unreferenced local variable
-  CPP201x_asm1_minhnhFX30636@funix.edu.vn.vcxproj -> D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\x64\Debug\CPP201x_asm1_minhnhFX30636@funix.edu.vn.exe
+﻿  Car.cpp
+  CommonInfo.cpp
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(11,27): error C2504: 'Setting': base class undefined
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(18,7): error C3668: 'CommonInfo::inputSettings': method with override specifier 'override' did not override any base class methods
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(19,7): error C3668: 'CommonInfo::displaySettings': method with override specifier 'override' did not override any base class methods
+  CPP201x_asm1_minhnhFX30636@funix.edu.vn.cpp
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(11,27): error C2504: 'Setting': base class undefined
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(18,7): error C3668: 'CommonInfo::inputSettings': method with override specifier 'override' did not override any base class methods
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(19,7): error C3668: 'CommonInfo::displaySettings': method with override specifier 'override' did not override any base class methods
+  Display.cpp
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(11,27): error C2504: 'Setting': base class undefined
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(18,7): error C3668: 'CommonInfo::inputSettings': method with override specifier 'override' did not override any base class methods
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(19,7): error C3668: 'CommonInfo::displaySettings': method with override specifier 'override' did not override any base class methods
+  General.cpp
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(11,27): error C2504: 'Setting': base class undefined
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(18,7): error C3668: 'CommonInfo::inputSettings': method with override specifier 'override' did not override any base class methods
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(19,7): error C3668: 'CommonInfo::displaySettings': method with override specifier 'override' did not override any base class methods
+  Setting.cpp
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(11,27): error C2504: 'Setting': base class undefined
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(18,7): error C3668: 'CommonInfo::inputSettings': method with override specifier 'override' did not override any base class methods
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(19,7): error C3668: 'CommonInfo::displaySettings': method with override specifier 'override' did not override any base class methods
+  Sound.cpp
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(11,27): error C2504: 'Setting': base class undefined
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(18,7): error C3668: 'CommonInfo::inputSettings': method with override specifier 'override' did not override any base class methods
+D:\Funix\CPP\2-CPP102x\Assignments\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CPP201x_asm1_minhnhFX30636@funix.edu.vn\CommonInfo.h(19,7): error C3668: 'CommonInfo::displaySettings': method with override specifier 'override' did not override any base class methods
+  Generating Code...

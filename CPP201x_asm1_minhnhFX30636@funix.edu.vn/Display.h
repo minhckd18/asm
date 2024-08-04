@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string>
 
-class Display : public Setting{
+class Display : public Setting {
 
 public:
 	Display();

@@ -12,11 +12,17 @@ using namespace std;
 class General : public Setting {
 public:
 	General();
-	~General();
-	void nhapThongTin();
-	void xuatThongTin();
+	~General() = default;
+
+	// override Setting
+	void inputSettings();
+	void displaySettings();
+
+	// getters
 	string get_language();
 	string get_timeZone();
+
+	// setters
 	void set_timeZone(string data);
 	void set_language(string data);
 private:
